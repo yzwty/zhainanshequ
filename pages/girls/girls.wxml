@@ -1,0 +1,6 @@
+   <view wx:for="{{imgList}}" class="girlImg">
+        <view class="title">{{item.title}}</view>
+        <image src="{{item.picUrl}}" mode="aspectFit"/>
+          <!-- 分割线 -->
+        <view class="divLine"></view>
+    </view>
